@@ -22,7 +22,7 @@
 		F78011A025D0157200A89768 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780119E25D0157200A89768 /* MessageCell.swift */; };
 		F7A4BBA525CDB3CD0019E06F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4BBA425CDB3CD0019E06F /* Constants.swift */; };
 		F7A61F6F25CAC8B10083311F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A61F6E25CAC8B10083311F /* GoogleService-Info.plist */; };
-		F7C2561925D1822B007DFDBE /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C2561825D1822B007DFDBE /* MessageCell.xib */; };
+		F7EAE82C25D6A848006B04B0 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EAE82B25D6A848006B04B0 /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,7 @@
 		F780119E25D0157200A89768 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		F7A4BBA425CDB3CD0019E06F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F7A61F6E25CAC8B10083311F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F7C2561825D1822B007DFDBE /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessageCell.xib; path = "../../../../../../Downloads/Flash-Chat-iOS13-Completed-master/Flash Chat iOS13/Views/MessageCell.xib"; sourceTree = "<group>"; };
+		F7EAE82B25D6A848006B04B0 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
+				F7EAE82B25D6A848006B04B0 /* MessageCell.xib */,
 				F780119E25D0157200A89768 /* MessageCell.swift */,
-				F7C2561825D1822B007DFDBE /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,10 +203,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
+				F7EAE82C25D6A848006B04B0 /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
 				F7A61F6F25CAC8B10083311F /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
-				F7C2561925D1822B007DFDBE /* MessageCell.xib in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
